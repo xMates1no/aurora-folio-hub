@@ -3,34 +3,17 @@ import { Section, SectionHeading } from "./Section";
 
 const plans = [
   {
-    name: "Starter",
-    price: "€890",
-    cadence: "per project",
-    blurb: "A focused landing page or a single feature, designed and shipped.",
-    features: ["1 page design", "Responsive build", "2 revision rounds", "7-day delivery"],
-    popular: false,
-  },
-  {
-    name: "Pro",
-    price: "€2 400",
-    cadence: "per project",
-    blurb: "A complete product site or app UI with a reusable design system.",
+    name: "Basic Pack",
+    price: "€50",
+    cadence: "per pack",
+    blurb: "A full set of custom Blockbench models for your Minecraft server.",
     features: [
-      "Up to 6 pages",
-      "Design system & tokens",
-      "Front-end implementation",
-      "Unlimited revisions",
-      "3-week delivery",
+      "Custom models & textures",
+      "Ready-to-use resource pack files",
+      "7 revisions included (€5 each after)",
+      "About one week delivery",
     ],
     popular: true,
-  },
-  {
-    name: "Retainer",
-    price: "€3 200",
-    cadence: "per month",
-    blurb: "Ongoing design & development capacity for growing teams.",
-    features: ["Dedicated weekly hours", "Priority support", "Async standups", "Cancel anytime"],
-    popular: false,
   },
 ];
 
