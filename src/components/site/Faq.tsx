@@ -4,23 +4,15 @@ import { Section, SectionHeading } from "./Section";
 const faqs = [
   {
     q: "How do we start working together?",
-    a: "Send a short brief through the contact form. I reply within 24 hours with a scope proposal, timeline and a fixed price.",
+    a: "Send a short brief through the contact form or my Discord server. I reply within 24 hours with a scope proposal, timeline and a fixed price.",
   },
   {
     q: "What is your typical turnaround?",
-    a: "A landing page takes about a week. Full product work usually runs two to four weeks depending on the number of screens.",
-  },
-  {
-    q: "Do you work with existing design systems?",
-    a: "Yes. I can extend your current system or build one from scratch with documented tokens and components.",
+    a: "A full Blockbench set takes about a week. You have 7 revisions included, with every additional revision costing €5.",
   },
   {
     q: "How does payment work?",
-    a: "50% up front to reserve the slot, 50% on delivery. Retainers are billed monthly and can be cancelled any time.",
-  },
-  {
-    q: "Are the free resources really free?",
-    a: "Completely. No email required, no license fee — use them in personal and commercial work.",
+    a: "50% up front to reserve the slot, 50% on delivery.",
   },
 ];
 

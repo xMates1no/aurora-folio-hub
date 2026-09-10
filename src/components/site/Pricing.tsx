@@ -3,34 +3,17 @@ import { Section, SectionHeading } from "./Section";
 
 const plans = [
   {
-    name: "Starter",
-    price: "€890",
-    cadence: "per project",
-    blurb: "A focused landing page or a single feature, designed and shipped.",
-    features: ["1 page design", "Responsive build", "2 revision rounds", "7-day delivery"],
-    popular: false,
-  },
-  {
-    name: "Pro",
-    price: "€2 400",
-    cadence: "per project",
-    blurb: "A complete product site or app UI with a reusable design system.",
+    name: "Basic Pack",
+    price: "€50",
+    cadence: "per pack",
+    blurb: "A full set of custom Blockbench models for your Minecraft server.",
     features: [
-      "Up to 6 pages",
-      "Design system & tokens",
-      "Front-end implementation",
-      "Unlimited revisions",
-      "3-week delivery",
+      "Custom models & textures",
+      "Ready-to-use resource pack files",
+      "7 revisions included (€5 each after)",
+      "About one week delivery",
     ],
     popular: true,
-  },
-  {
-    name: "Retainer",
-    price: "€3 200",
-    cadence: "per month",
-    blurb: "Ongoing design & development capacity for growing teams.",
-    features: ["Dedicated weekly hours", "Priority support", "Async standups", "Cancel anytime"],
-    popular: false,
   },
 ];
 
@@ -39,16 +22,16 @@ export function Pricing() {
     <Section id="pricing">
       <SectionHeading
         eyebrow="Pricing"
-        title={<>Simple, honest packages</>}
+        title={<>Simple, honest pricing</>}
         description="Fixed scope, fixed price. No surprise invoices."
       />
 
-      <div className="grid items-start gap-6 md:grid-cols-3">
+      <div className="mx-auto grid max-w-md items-start gap-6">
         {plans.map((plan) => (
           <div
             key={plan.name}
             className={`glass-card relative flex flex-col rounded-xl p-7 ${
-              plan.popular ? "border-violet/60 shadow-[var(--shadow-glow-violet)] md:-mt-4" : ""
+              plan.popular ? "border-violet/60 shadow-[var(--shadow-glow-violet)]" : ""
             }`}
           >
             {plan.popular ? (
@@ -78,7 +61,7 @@ export function Pricing() {
                   : "border border-border bg-secondary/60 hover:border-violet hover:bg-secondary"
               }`}
             >
-              Choose {plan.name}
+              See what&apos;s included
             </a>
           </div>
         ))}
