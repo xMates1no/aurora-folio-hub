@@ -19,7 +19,7 @@ const projects = [
     image: rajceIcon.url,
     fit: "contain" as const,
     gradient:
-      "radial-gradient(120% 120% at 80% 10%, color-mix(in oklab, var(--neon) 40%, transparent) 0%, transparent 60%), linear-gradient(135deg, oklch(0.24 0.11 250), oklch(0.2 0.13 300))",
+      "radial-gradient(120% 120% at 80% 10%, color-mix(in oklab, var(--primary) 40%, transparent) 0%, transparent 60%), linear-gradient(135deg, oklch(0.24 0.11 250), oklch(0.2 0.13 300))",
     title: "Rajče.pro — Server icon",
     tag: "Icon Art",
     description:
