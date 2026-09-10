@@ -13,12 +13,13 @@ export function Hero() {
         </span>
 
         <h1 className="mt-6 text-4xl leading-tight font-bold sm:text-6xl">
-          I design & build <span className="text-gradient">digital products</span> that feel alive
+          I make <span className="text-gradient">Blockbench models</span> that make your Minecraft
+          server feel more alive
         </h1>
 
         <p className="mx-auto mt-5 max-w-xl text-base text-muted-foreground sm:text-lg">
-          Product designer and front-end developer crafting fast, accessible interfaces — from first
-          sketch to shipped release.
+          Custom 3D models, textures and animations for Minecraft servers — from first idea to
+          in-game release.
         </p>
 
         <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -40,9 +41,9 @@ export function Hero() {
 
         <dl className="mx-auto mt-14 grid max-w-lg grid-cols-3 gap-4">
           {[
-            ["8+", "Years"],
-            ["120+", "Projects"],
-            ["40+", "Clients"],
+            ["2", "Years"],
+            ["20+", "Projects"],
+            ["10", "Clients"],
           ].map(([value, label]) => (
             <div key={label} className="glass-card rounded-xl px-3 py-4">
               <dt className="text-gradient text-2xl font-bold">{value}</dt>

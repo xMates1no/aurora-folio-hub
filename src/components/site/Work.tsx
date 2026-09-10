@@ -1,34 +1,14 @@
 import { ArrowUpRight } from "lucide-react";
 import { Section, SectionHeading } from "./Section";
-import p1 from "@/assets/project-1.jpg";
-import p2 from "@/assets/project-2.jpg";
-import p3 from "@/assets/project-3.jpg";
-import p4 from "@/assets/project-4.jpg";
+import pRajce from "@/assets/project-rajce.jpg";
 
 const projects = [
   {
-    image: p1,
-    title: "Nebula Analytics",
-    tag: "SaaS Dashboard",
-    description: "A real-time analytics suite with a dense, keyboard-first data workspace.",
-  },
-  {
-    image: p2,
-    title: "Orbit Chat",
-    tag: "Mobile App",
-    description: "Messaging app with offline sync, threads and playful micro-interactions.",
-  },
-  {
-    image: p3,
-    title: "Lorcun Identity",
-    tag: "Brand System",
-    description: "Full visual identity: logo, motion language and a living component library.",
-  },
-  {
-    image: p4,
-    title: "Halo Store",
-    tag: "E-commerce",
-    description: "Headless storefront rebuilt for speed — 2.1s faster to first purchase.",
+    image: pRajce,
+    title: "Rajče.pro",
+    tag: "Minecraft Server",
+    description:
+      "Custom Blockbench models, textures and animations for one of the biggest Czech & Slovak Minecraft servers.",
   },
 ];
 
