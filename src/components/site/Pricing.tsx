@@ -22,16 +22,16 @@ export function Pricing() {
     <Section id="pricing">
       <SectionHeading
         eyebrow="Pricing"
-        title={<>Simple, honest packages</>}
+        title={<>Simple, honest pricing</>}
         description="Fixed scope, fixed price. No surprise invoices."
       />
 
-      <div className="grid items-start gap-6 md:grid-cols-3">
+      <div className="mx-auto grid max-w-md items-start gap-6">
         {plans.map((plan) => (
           <div
             key={plan.name}
             className={`glass-card relative flex flex-col rounded-xl p-7 ${
-              plan.popular ? "border-violet/60 shadow-[var(--shadow-glow-violet)] md:-mt-4" : ""
+              plan.popular ? "border-violet/60 shadow-[var(--shadow-glow-violet)]" : ""
             }`}
           >
             {plan.popular ? (
