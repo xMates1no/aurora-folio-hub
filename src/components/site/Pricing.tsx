@@ -61,7 +61,7 @@ export function Pricing() {
                   : "border border-border bg-secondary/60 hover:border-violet hover:bg-secondary"
               }`}
             >
-              Choose {plan.name}
+              See what&apos;s included
             </a>
           </div>
         ))}
